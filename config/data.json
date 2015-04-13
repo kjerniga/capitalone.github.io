@@ -1,0 +1,27 @@
+{
+  "apple": {
+    "name": "Apple",
+    "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
+    "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+  },
+  "apple2": {
+    "name": "Apple2",
+    "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
+    "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+  },
+  "apple3": {
+    "name": "Apple3",
+    "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
+    "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+  },
+  "apple4": {
+    "name": "Apple4",
+    "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
+    "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+  },
+  "apple5": {
+    "name": "Apple5",
+    "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
+    "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+  }
+}

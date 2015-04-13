@@ -1,40 +1,140 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="tools/style.css" rel="stylesheet" type="text/css" />
-<link href="tools/jquery.countdown.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="tools/jquery.min.js"></script>
-<script type="text/javascript" src="tools/jquery.countdown.js"></script>
-<script type="text/javascript">
-function redirect(site){
-		if(site == 'twitter')
-		{
-	var win=window.open('https://twitter.com/capitaloneio', '_blank');
-    win.focus();	
-        }
-    };
-</script>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Capital One Open Source Offerings</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link href="assets/css/fancybox.css" rel="stylesheet"/>
+    <link href="assets/css/animations.min.css" rel="stylesheet"/>
+    <link href="assets/css/style-green.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
-<body>
-<div id="shim"></div>
-<div id="content">
-<div class="logo"><h1><span>CapitalOne.IO</span></h1>	
-	<div class="right_side">
-		<div class="right_content">
-			<h2><pre>Our OSS Offerings Coming Soon </pre></h2>
-			<div id="defaultCountdown"></div>
-			<ul class="social">
-		
-				<li><a href="#" class="tw" onclick="redirect('twitter');"></a></li>
-				
-			</ul>
-			
-		</div>
-	</div>
+<body data-spy="scroll" onload="zoomOutThumbnails()">
+
+<!--MENU SECTION START-->
+<div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.capitalone.com/">
+                <img src="assets/art/images/white_capital_one_logo.png" height="25px"/>
+            </a>
+            <a class="navbar-brand" href="#">
+                Capital One Open Source Offerings
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#source-code-section">Source Code</a></li>
+                <li><a href="#about-section">About</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
+<!--MENU SECTION END-->
+
+<!--HOME SECTION START-->
+<div id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                <div id="carousel-slider" data-ride="carousel" class="carousel slide  animate-in"
+                     data-anim-type="fade-in-up">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h3>
+                                Capital One is now offering open source code to the world!
+                            </h3>
+
+                            <p>
+                                With these new offerings from Capital One, you can save tremendous time during your
+                                development. Licensed under MIT, we are giving you the freedom to do with your projects
+                                as you please! With these new offerings from Capital One, you can save tremendous time
+                                during your
+                                development. Licensed under MIT, we are giving you the freedom to do with your projects
+                                as you please!
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                Looking for open source enterprise code?
+                            </h3>
+
+                            <p>
+                                Look no further! You have found the right place to explore the high quality offerings
+                                from Capital One. Everything you see here is free to do with as you please, no
+                                exceptions!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--HOME SECTION END-->
+
+<!--SOURCE CODE SECTION START-->
+<section id="source-code-section">
+    <div class="container">
+        <div class="row text-center header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up">
+                <h3>Open Source Code Offerings</h3>
+                <hr/>
+            </div>
+        </div>
+        <div id="open-source-elements" class="row animate-in text-center" data-anim-type="fade-in-up"/>
+    </div>
+</section>
+<!--SOURCE CODE SECTION END-->
+
+<!--ABOUT SECTION START-->
+<section id="about-section">
+    <div class="container">
+        <div class="row text-center header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up">
+                <h3>Why are we doing this?</h3>
+                <hr/>
+            </div>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+            <p>
+                Capital One is all about giving back. We did this and that, and now we are offering open source code to
+                the world. It is just a small part of our awesomeness. So suck it. Capital One is all about giving back.
+                We did this and that, and now we are offering open source code to the world. It is just a small part of
+                our awesomeness. So suck it. Capital One is all about giving back. We did this and that, and now we are
+                offering open source code to the world. It is just a small part of our awesomeness. So suck it. Capital
+                One is all about giving back. We did this and that, and now we are offering open source code to the
+                world. It is just a small part of our awesomeness. So suck it. Capital One is all about giving back. We
+                did this and that, and now we are offering open source code to the world. It is just a small part of our
+                awesomeness. So suck it. Capital One is all about giving back. We did this and that, and now we are
+                offering open source code to the world. It is just a small part of our awesomeness. So suck it.
+            </p>
+        </div>
+    </div>
+</section>
+<!--ABOUT SECTION END-->
+
+<!--LOAD JAVASCRIPTS START-->
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--<script src="assets/js/section-loader.js"></script>-->
+<script src="assets/js/vegas/vegas.min.js"></script>
+<script src="assets/js/easing.1.3.js"></script>
+<script src="assets/js/fancybox.js"></script>
+<script src="assets/js/isotope.min.js"></script>
+<script src="assets/js/appear.min.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/elements-reader.js"></script>
+<script src="assets/js/zoomer.js"></script>
+<script src="assets/js/thumbnail-zoomer.js"></script>
+<!--LOAD JAVASCRIPTS END-->
 
 </body>
 </html>

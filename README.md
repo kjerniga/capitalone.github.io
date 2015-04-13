@@ -1,4 +1,4 @@
-capitalone.github.io
-====================
+OpenSourceOfferings
+===================
 
-CapitalOne Open Source Offerings
+Display for the open source offerings from Capital One.
