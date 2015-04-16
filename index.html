@@ -1,59 +1,130 @@
 <!DOCTYPE html>
 <html>
+
+
 <head lang="en">
     <meta charset="UTF-8">
     <title>Capital One Open Source Offerings</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link href="assets/css/style-green.css" rel="stylesheet"/>
     <link href="assets/css/fancybox.css" rel="stylesheet"/>
     <link href="assets/css/animations.min.css" rel="stylesheet"/>
-    <link href="assets/css/style-green.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
-<body data-spy="scroll" onload="zoomOutThumbnails()">
+
+
+<body data-spy="scroll">
 
 
 <!--MENU SECTION START-->
 
-<!--#menu-section is loaded from assets/html/menu-section.html-->
-<section id="menu-section"></section>
+<section id="menu-section">
+    <div class="navbar navbar-inverse navbar-fixed-top scroll-me">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.capitalone.com/">
+                    <img src="assets/images/white_capital_one_logo.png" height="25px"/>
+                </a>
+                <a class="navbar-brand" href="#">
+                    Capital One Open Source Offerings
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#source-code-section">Source Code</a></li>
+                    <li><a href="#about-section">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--MENU SECTION END-->
 
 
 <!--HOME SECTION START-->
 
-<!--#home-section is loaded from assets/html/home-section.html-->
-<section id="home-section"></section>
+<section id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                <div id="carousel-slider" data-ride="carousel" class="carousel slide  animate-in"
+                     data-anim-type="fade-in-up">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h3>
+                                Capital One is now offering open source code to the world!
+                            </h3>
+
+                            <p>
+                                With these new offerings from Capital One, you can save tremendous time during your
+                                development. Licensed under MIT, we are giving you the freedom to do with your projects
+                                as you please! With these new offerings from Capital One, you can save tremendous time
+                                during your
+                                development. Licensed under MIT, we are giving you the freedom to do with your projects
+                                as you please!
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                Looking for open source enterprise code?
+                            </h3>
+
+                            <p>
+                                Look no further! You have found the right place to explore the high quality offerings
+                                from Capital One. Everything you see here is free to do with as you please, no
+                                exceptions!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--HOME SECTION END-->
 
 
 <!--SOURCE CODE SECTION START-->
 
-<!--#source-code-section is loaded from assets/html/source-code-section.html-->
-<section id="source-code-section"></section>
+<section id="source-code-section">
+    <div class="container animate-in" data-anim-type="fade-in-up">
+        <div class="row text-center header">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>Open Source Code Offerings</h3>
+                <hr/>
+            </div>
+        </div>
+        <div id="open-source-contents" class="row animate-in text-center" data-anim-type="fade-in-up"/>
+    </div>
+</section>
 
 <!--SOURCE CODE SECTION END-->
 
 
 <!--ABOUT SECTION START-->
 
-<!--#about-section is loaded from assets/html/about-section.html-->
-<section id="about-section"></section>
+<section id="about-section">
+    <div id="about-contents"/>
+</section>
 
 <!--ABOUT SECTION END-->
 
 
-<!--LOAD JAVASCRIPTS START-->
+<!--LOAD JAVASCRIPT FILES START-->
 
 <!--jQuery Framework-->
 <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
 
 <!--Bootstrap Twitter stylesheets-->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-<!--Loads the individual sections for this page-->
-<script src="assets/js/section-loader.js"></script>
 
 <!--Background Changer-->
 <script src="assets/js/vegas/vegas.min.js"></script>
@@ -76,16 +147,13 @@
 <!--Light Wave outline controller-->
 <script src="assets/js/custom.js"></script>
 
-<!--Creates HTML for the open source code referenced in assets/config/data.json-->
-<script src="assets/js/elements-reader.js"></script>
+<!--Creates HTML for the open source code referenced in assets/config/open-source-section.json-->
+<script src="assets/js/open-source.js"></script>
 
-<!--Used to zoom in on the contents of an iframe-->
-<script src="assets/js/zoomer.js"></script>
+<!--Creates HTML for the about code referenced in assets/config/about-section.json-->
+<script src="assets/js/about.js"></script>
 
-<!--Controller for zooming in on particular iframes using assets/js/zoomer.js-->
-<script src="assets/js/thumbnail-zoomer.js"></script>
-
-<!--LOAD JAVASCRIPTS END-->
+<!--LOAD JAVASCRIPT FILES END-->
 
 
 </body>

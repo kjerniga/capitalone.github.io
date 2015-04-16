@@ -43,8 +43,8 @@ $(document).ready(function () {
      ======================================*/
     $.vegas('slideshow', {
         backgrounds: [
-            { src: 'assets/art/images/background_1.png', fade: 1000, delay: 9000 },
-            { src: 'assets/art/images/background_2.png', fade: 1000, delay: 9000 },
+            { src: 'assets/images/background_1.png', fade: 1000, delay: 9000 },
+            { src: 'assets/images/background_2.png', fade: 1000, delay: 9000 },
         ]
     })('overlay', {
         /** SLIDESHOW OVERLAY IMAGE **/
