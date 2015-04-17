@@ -1,8 +1,20 @@
+/*This is the style for the entire body.*/
+body {
+    background: url("background.png") fixed;
+    background-size: 100% 100%;
+}
+
 /*This is the style for each main section header.*/
 /*They are intentionally being stylized consistently opposed to individually for a better UX*/
 .section-header {
     text-align: center;
     color: white;
+}
+
+/*This is the horizontal rule below the section headers.*/
+hr {
+    width: 50px;
+    border-top: 2px solid rgb(57, 171, 111);
 }
 
 /*This is the style for the text in the about sections at the bottom of the page.*/

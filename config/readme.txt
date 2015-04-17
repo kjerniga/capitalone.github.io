@@ -2,6 +2,9 @@ The only parts of this template intended to be modified are in the config folder
 The word "my" implies the ability to change to any string.
 These changes may include:
 
+background.png
+This is the background used by default in config/style.css.  This can be changed or removed.
+
 section-about.json
 This is the bottom section.  It is a set of headers and text.  It can accept unlimited subsections.
 It requires the following json format:

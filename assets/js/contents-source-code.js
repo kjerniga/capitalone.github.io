@@ -29,7 +29,7 @@ function getSourceCodeSection(data) {
             html += "<h4 class='source-code-header'>" + name + "</h4>";
             html += "<div class='floater'>";
             html += "<a href='" + gitHubUrl + "' target='_blank'>";
-            html += "<img src='" + image + "' width=100px />";
+            html += "<img src='" + image + "' width=70px />";
             html += "</a>";
             html += "</div>";
             html += "<p class='source-code-text'>" + description + "</p>";

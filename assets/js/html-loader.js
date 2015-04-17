@@ -1,7 +1,3 @@
-
-//Background Slideshow
-$('#background-slideshow').load('assets/html/background-slideshow.html');
-
 //About Section
 $('#section-about').load('assets/html/section-about.html', function () {
     $.getScript("assets/js/contents-about.js");
