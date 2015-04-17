@@ -21,12 +21,13 @@ function getIntroSection(data) {
         }
         html += "<div class='row'>";
         html += "<div class='col-md-6 col-md-offset-3'>";
-        html += "<h1>" + header + "</h1>";
+        html += "<h1 class='section-header'>" + header + "</h1>";
+        html += "<hr>";
         html += "</div>";
         html += "</div>";
         html += "<div class='row'>";
         html += "<div class='col-md-8 col-md-offset-2'>";
-        html += "<p>" + text + "</p>";
+        html += "<p class='intro-text'>" + text + "</p>";
         html += "</div>";
         html += "</div>";
         html += "</div>";
@@ -35,6 +36,5 @@ function getIntroSection(data) {
     html += "</div>";
     html += "</div>";
     html += "</div>";
-    console.log(html);
     return html;
 }

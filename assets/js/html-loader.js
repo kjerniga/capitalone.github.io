@@ -1,3 +1,4 @@
+
 //Background Slideshow
 $('#background-slideshow').load('assets/html/background-slideshow.html');
 
@@ -12,7 +13,9 @@ $('#section-intro').load('assets/html/section-intro.html', function () {
 });
 
 //Menu Section
-$('#section-menu').load('assets/html/section-menu.html');
+$('#section-menu').load('assets/html/section-menu.html', function () {
+    $.getScript("assets/js/contents-menu.js");
+});
 
 //Source Code Section
 $('#section-source-code').load('assets/html/section-source-code.html', function () {

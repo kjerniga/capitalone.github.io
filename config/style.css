@@ -1,0 +1,28 @@
+/*This is the style for each main section header.*/
+/*They are intentionally being stylized consistently opposed to individually for a better UX*/
+.section-header {
+    text-align: center;
+    color: white;
+}
+
+/*This is the style for the text in the about sections at the bottom of the page.*/
+.about-text {
+    color: rgb(57, 171, 111);
+}
+
+/*This is the style for the text in the intro sections at the top of the page.*/
+.intro-text {
+    color: rgb(57, 171, 111);
+}
+
+/*This is the style for each sub-header in source code sections in the middle of the page.*/
+.source-code-header {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/*This is the style for the text for each source code section in the middle of the page.*/
+.source-code-text {
+    color: white;
+}
