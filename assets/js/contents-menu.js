@@ -16,8 +16,8 @@ function getMenuSection(data) {
     html += "<div class='navbar-collapse collapse'>";
     html += "<ul class='nav navbar-nav navbar-right'>";
     html += "<li class='active'><a href='#section-intro'>" + json.tab1 + "</a></li>";
-    html += "<li><a href='#section-source-code'>" + json.tab2 + "</a></li>";
-    html += "<li><a href='#section-about'>" + json.tab3 + "</a></li>";
+    html += "<li><a href='#section-core'>" + json.tab2 + "</a></li>";
+    html += "<li><a href='#section-conclusion'>" + json.tab3 + "</a></li>";
     html += "</ul>";
     html += "</div>";
     html += "</div>";

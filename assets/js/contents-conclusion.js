@@ -1,4 +1,4 @@
-$.getJSON('config/section-about.json', function (data) {
+$.getJSON('config/section-conclusion.json', function (data) {
     document.getElementById("contents-about").innerHTML = getAboutSection(JSON.stringify(data));
 });
 
@@ -17,7 +17,7 @@ function getAboutSection(data) {
         html += "</div>";
         html += "<div class='row'>";
         html += "<div class='col-md-8 col-md-offset-2'>";
-        html += "<p class='about-text'>" + text + "</p>";
+        html += "<p class='conclusion-text'>" + text + "</p>";
         html += "</div>";
         html += "</div>";
     }
