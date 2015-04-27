@@ -11,13 +11,13 @@ function getMenuSection(data) {
     html += "<a class='navbar-brand' href='" + json.image_url + "'>";
     html += "<img src='" + json.image + "' height='25px'/>";
     html += "</a>";
-    html += "<a class='navbar-brand' href='#'>" + json.header + "</a>";
+    html += "<a class='navbar-brand menu-header' href='#'>" + json.header + "</a>";
     html += "</div>";
     html += "<div class='navbar-collapse collapse'>";
     html += "<ul class='nav navbar-nav navbar-right'>";
-    html += "<li class='active'><a href='#section-intro'>" + json.tab1 + "</a></li>";
-    html += "<li><a href='#section-core'>" + json.tab2 + "</a></li>";
-    html += "<li><a href='#section-conclusion'>" + json.tab3 + "</a></li>";
+    html += "<li class='menu-tab active'><a href='#section-intro'>" + json.tab1 + "</a></li>";
+    html += "<li class='menu-tab'><a href='#section-core'>" + json.tab2 + "</a></li>";
+    html += "<li class='menu-tab'><a href='#section-conclusion'>" + json.tab3 + "</a></li>";
     html += "</ul>";
     html += "</div>";
     html += "</div>";

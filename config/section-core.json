@@ -7,9 +7,9 @@
       "git_hub_url": "//github.com/capitalone/Open-Source-Software/tree/hygieia"
     },
     "apple2": {
-      "title": "Apple2",
-      "image": "config/images/hygieia_logo.png",
-      "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
+      "title": "Capital One Open Source Software",
+      "image": "config/images/white_capital_one_logo.png",
+      "description": "Even the site you are looking at right now is a part of our open source library.  It is customizable without the need to write any code.",
       "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     },
     "apple3": {

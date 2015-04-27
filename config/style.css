@@ -1,3 +1,13 @@
+/*This is the style for the header in the menu.*/
+/*Different fonts are not currently supported.*/
+.menu-header {
+}
+
+/*This is the style for the tabs in the menu.*/
+.menu-tab {
+    font-family: 'Denk One', sans-serif;
+}
+
 /*This is the style for the entire body.*/
 body {
     background: url("images/background.png") fixed;
@@ -7,6 +17,7 @@ body {
 /*This is the style for each main section header.*/
 /*They are intentionally being stylized consistently opposed to individually for a better UX*/
 .section-header {
+    font-family: 'Denk One', sans-serif;
     text-align: center;
     color: white;
 }
@@ -20,21 +31,23 @@ hr {
 /*This is the style for the text in the conclusion sections at the bottom of the page.*/
 .conclusion-text {
     color: rgb(57, 171, 111);
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*This is the style for the text in the intro sections at the top of the page.*/
 .intro-text {
     color: rgb(57, 171, 111);
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*This is the style for each sub-header in core sections in the middle of the page.*/
 .core-header {
+    font-family: 'Anton', sans-serif;
     color: white;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
 }
 
 /*This is the style for the text for each core section in the middle of the page.*/
 .core-text {
     color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
