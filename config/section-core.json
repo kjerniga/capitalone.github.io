@@ -1,66 +1,66 @@
 {
   "Source Code": {
     "hygieia": {
-      "name": "Hygieia name",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Hygieia name",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is where you will find the source code for Hygieia.  It has the ability to...well, I have no idea what it does.  Go check it out for yourself.",
       "git_hub_url": "//github.com/capitalone/Open-Source-Software/tree/hygieia"
     },
     "apple2": {
-      "name": "Apple2",
-      "image": "assets/images/hygieia_logo.png",
-      "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "title": "Capital One Open Source Software",
+      "image": "config/images/white_capital_one_logo.png",
+      "description": "Even the site you are looking at right now is a part of our open source library.  It is customizable without the need to write any code.",
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     },
     "apple3": {
-      "name": "Apple3",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple3",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     },
     "apple4": {
-      "name": "Apple4",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple4",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     },
     "apple5": {
-      "name": "Apple5",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple5",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     }
   },
   "Second Set": {
     "hygieia": {
-      "name": "Hygieia2",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Hygieia2",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is where you will find the source code for Hygieia.  It has the ability to...well, I have no idea what it does.  Go check it out for yourself.",
       "git_hub_url": "//github.com/capitalone/Open-Source-Software/tree/hygieia"
     },
     "apple2": {
-      "name": "Apple6",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple6",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
       "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
     },
     "apple3": {
-      "name": "Apple7",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple7",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     },
     "apple4": {
-      "name": "Apple8",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple8",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     },
     "apple5": {
-      "name": "Apple9",
-      "image": "assets/images/hygieia_logo.png",
+      "title": "Apple9",
+      "image": "config/images/hygieia_logo.png",
       "description": "This is the open source code that is actually just a link to apple. The rest of these are just as non-existantish.",
-      "git_hub_url": "https://github.com/capitalone/capitalone.github.io"
+      "git_hub_url": "//github.com/capitalone/capitalone.github.io"
     }
   }
 }

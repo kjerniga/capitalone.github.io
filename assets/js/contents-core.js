@@ -1,4 +1,4 @@
-$.getJSON('config/section-source-code.json', function (data) {
+$.getJSON('config/section-core.json', function (data) {
     document.getElementById("contents-source-code").innerHTML = getSourceCodeSection(JSON.stringify(data));
 });
 
@@ -15,7 +15,7 @@ function getSourceCodeSection(data) {
         html += "</div>";
         var elementNumber = 0;
         for (var element in json[elementGroup]) {
-            var name = json[elementGroup][element].name;
+            var title = json[elementGroup][element].title;
             var image = json[elementGroup][element].image;
             var description = json[elementGroup][element].description;
             var gitHubUrl = json[elementGroup][element].git_hub_url;
@@ -26,13 +26,13 @@ function getSourceCodeSection(data) {
             else {
                 html += "<div class='col-md-2'>";
             }
-            html += "<h4 class='source-code-header'>" + name + "</h4>";
+            html += "<h4 class='core-header'>" + title + "</h4>";
             html += "<div class='floater'>";
             html += "<a href='" + gitHubUrl + "' target='_blank'>";
             html += "<img src='" + image + "' width=70px />";
             html += "</a>";
             html += "</div>";
-            html += "<p class='source-code-text'>" + description + "</p>";
+            html += "<p class='core-text'>" + description + "</p>";
             html += "</div>";
             if ((elementNumber + 1) % 3 === 0 || Object.keys(json).length == elementNumber) {
                 html += "</div>";

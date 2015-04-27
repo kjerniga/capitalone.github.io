@@ -1,6 +1,6 @@
-//About Section
-$('#section-about').load('assets/html/section-about.html', function () {
-    $.getScript("assets/js/contents-about.js");
+//Conclusion Section
+$('#section-conclusion').load('assets/html/section-conclusion.html', function () {
+    $.getScript("assets/js/contents-conclusion.js");
 });
 
 //Introduction Section
@@ -13,7 +13,7 @@ $('#section-menu').load('assets/html/section-menu.html', function () {
     $.getScript("assets/js/contents-menu.js");
 });
 
-//Source Code Section
-$('#section-source-code').load('assets/html/section-source-code.html', function () {
-    $.getScript("assets/js/contents-source-code.js");
+//Core Section
+$('#section-core').load('assets/html/section-core.html', function () {
+    $.getScript("assets/js/contents-core.js");
 });
