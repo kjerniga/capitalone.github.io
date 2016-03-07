@@ -7,12 +7,12 @@ layout: default
     <div class="wrap cf">
       {% for post in site.posts %}
         {% assign author = site.authors | where:"name",post.author | first %}
-        
+
         <article>
           <header>
             <div class="author cf">
               <div class="pic"><img src="{{ author.image | prepend: site.baseurl }}" alt="{{ author.name }}"></div>
-              <p class="name"><strong>{{ author.name }}</strong><span>{{ author.job_title }}</span></p>
+              <p class="name"><strong>{{ author.title }}</strong><span>{{ author.job_title }}</span></p>
             </div>
             <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <div class="details">
@@ -23,13 +23,13 @@ layout: default
                 {% endfor %}
               </p>
             </div>
-          </header> 
+          </header>
           <p class="excerpt">{{ post.excerpt }}</p>
           <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
         </article>
       {% endfor %}
-      
+
     </div>
-    
+
   </section>
 </section>

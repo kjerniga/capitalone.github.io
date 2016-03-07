@@ -14,7 +14,7 @@ layout: default
 				<h2>Posted {{ page.date | date: "%b %-d, %Y" }} by...</h2>
 				<div class="lefty cf">
 					<div class="pic"><img src="{{ author.image | prepend: site.baseurl }}" alt="{{ author.name }}"></div>
-					<p class="name"><strong>{{ author.name }}</strong><span>{{ author.job_title }}</span></p>
+					<p class="name"><strong>{{ author.title }}</strong><span>{{ author.job_title }}</span></p>
 				</div>
 				<ul class="righty cf">
 					{% if author.twitter != null %}
@@ -30,6 +30,6 @@ layout: default
 					{% endif %}
 				</ul>
 			</aside>
-		</div>	
+		</div>
 	</section>
 </div>
