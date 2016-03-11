@@ -17,10 +17,10 @@ And it’s no different for companies.
 
 Capital One knows about creating new things.  We were founded on the belief that information, technology and great people could combine to bring new, highly customized financial products directly to consumers.  It was daunting, and exhilarating.  But less than three decades later – with more than 65 million customer accounts and 45,000 great employees – you could say we’ve proven that original concept.  You could also say we’re not satisfied yet – and want to accomplish the same with the development community.
 
-So today, we’re starting something new again by becoming one of the first banks to open our platform to external developers and partners. We are launching __Capital One DevExchange__.
+So today, we’re starting something new again by becoming one of the first banks to open our platform to external developers and partners. We are launching __[Capital One DevExchange](https://developer.capitalone.com/)__.
 
 <br/>
-[![Capital One DevExchange]({{ site.baseurl | append: page.images.dev-exchange-logo }})]({{ site.baseurl | append: page.images.dev-exchange-logo }})
+[![Capital One DevExchange]({{ site.baseurl | append: page.images.dev-exchange-logo }})](https://developer.capitalone.com/)
 <br/>
 
 Every experienced developer will tell you that before they invest their time with a platform, they need to know that the basics are covered. Foundational things like:
