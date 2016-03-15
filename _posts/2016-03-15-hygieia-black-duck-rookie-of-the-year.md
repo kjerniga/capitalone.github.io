@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hygieia is a 2015 Black Duck Rookie of the Year!"
-date: 2016-03-15 12:55:00
+date: 2016-03-15 13:00:00
 author: Tapabrata Pal
 tags: [DevOps, DevOpsSec, Open Source]
 category: blog
