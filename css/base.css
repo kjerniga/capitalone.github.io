@@ -4,12 +4,14 @@ a:hover									{ text-decoration:underline; }
 div.centered							{ text-align:center; }
 div.italic								{ font-style:italic; }
 div.bold								{ font-weight:bold; }
+div.attribution					{ font-size: 12px; }
 p										{ overflow-wrap: break-word; word-wrap: break-word; word-break: normal; -webkit-hyphens: auto; -ms-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 ul ul,
 ul ol,
 ol ol,
 ol ul 									{ margin: 0; }
 code									{ margin-bottom: 10px; }
+blockquote						{ margin-left: 20px; }
 
 .wrap									{ width:90%; max-width:620px; margin:0 auto; position:relative; }
 
