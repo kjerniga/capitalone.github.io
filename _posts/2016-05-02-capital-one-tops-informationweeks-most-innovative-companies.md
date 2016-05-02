@@ -12,7 +12,7 @@ images:
 
 [![West Creek 2]({{ site.baseurl | append: page.images.westcreek2 }})]({{ site.baseurl | append: page.images.westcreek2 }})
 
-I’m thrilled that Capital One was named the #1 most innovative company using business technology on the *InformationWeek* Elite 100 ranking.
+I’m thrilled that Capital One was named the #1 most innovative company using business technology on the [*InformationWeek* Elite 100](http://www.informationweek.com/strategic-cio/capital-one-think-like-a-designer-work-like-a-startup/d/d-id/1325353) ranking.
 
 This recognition is a tremendous honor and a testament to amazingly talented team of designers, engineers, data scientists, and product managers, who apply their talent, expertise, and passion to innovate in an industry ripe for change. I am amazed by the energy and creativity, the fast pace and the thoughtfulness, and the humanity that every member of our team pours into their work.
 
