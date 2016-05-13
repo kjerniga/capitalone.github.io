@@ -4,7 +4,7 @@ name: Hydrograph
 source: GitHub
 source_url: https://www.youtube.com/watch?v=TOmcJ_uii9s
 viewbuttontext: Coming Soon
-icon: /assets/img/TechLogo_FullColorRev_Horizontal.png
+icon: /assets/img/projects/TechLogo_FullColorRev_Horizontal.png
 order: 3
 comingsoon: true
 ---

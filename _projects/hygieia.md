@@ -5,7 +5,7 @@ name: Hygieia&#8480;
 projecttrademark: true
 source: GitHub
 source_url: https://github.com/capitalone/Hygieia
-icon: /assets/img/hygieia_b.png
+icon: /assets/img/projects/hygieia_b.png
 order: 1
 viewbuttontext: View on github
 comingsoon: true

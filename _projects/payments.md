@@ -5,7 +5,7 @@ name: Payments  Project
 source: GitHub
 source_url: https://www.youtube.com/watch?v=y6t39AATpoc 
 viewbuttontext: Coming Soon
-icon: /assets/img/TechLogo_FullColorRev_Horizontal.png
+icon: /assets/img/projects/TechLogo_FullColorRev_Horizontal.png
 order: 3
 comingsoon: true
 ---
