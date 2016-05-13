@@ -3,23 +3,12 @@ layout: page
 permalink: /open-source/
 title:
 ---
-<style>
-h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-  font-weight: 700 !important;
-};
-p{min-height:200px;max-height:100px;};
 
-projecttitle {
-margin-bottom:2px !important;
-};
-
-</style>
 
 <section id="oss">
   <section id="intro">
-  Capital One&#174; is an open source-first organization.  We are actively using, contributing to and managing open source software projects. Come here to learn about our projects and those in our engineering pipeline. We look forward to collaborating with you!
-</section>
+    Capital One&#174; is an open source-first organization.  We are actively using, contributing to and managing open source software projects. Come here to learn about our projects and those in our engineering pipeline. We look forward to collaborating with you!
+  </section>
   <section id="projects">
     <h2>Projects</h2>
     {% assign projects = site.projects | sort: 'order' %}
@@ -51,63 +40,63 @@ margin-bottom:2px !important;
                 <img  style="height:30px;padding-top:4px;" src="{{ project.icon }}"  class="logo"></h3>
               </header>
               <div class="excerpt" style="height:215px;overflow:hidden;text-overflow:ellipsis;">{{ project.content }}</div>
-                <div class="row"><div class="five columns centered">
-                  <a href="{{ project.source_url}}" target="_blank"
-                  class="button regressive"> {{ project.viewbuttontext }}</a>
-                </div>
+              <div class="row"><div class="five columns centered">
+                <a href="{{ project.source_url}}" target="_blank"
+                class="button regressive"> {{ project.viewbuttontext }}</a>
               </div>
-            </article>
-          </div>
-
-          <!-- build the row for buttons -->
-          {% if endrow == true and numberofbuttons == 1 %}
+            </div>
+          </article>
         </div>
+
+        <!-- build the row for buttons -->
+        {% if endrow == true and numberofbuttons == 1 %}
+      </div>
 
       <br>
       <br>
 
       {% elsif endrow == true and numberofbuttons == 2  %}
     </div>
-  <br>
-  <br>
+    <br>
+    <br>
 
-  {% endif %}
-  {% endfor %}
+    {% endif %}
+    {% endfor %}
     <section id="other_projects">
-        <div class="row">
-          <div class="full column">
-            <article>
-              <header>
-                <h2>Other Projects</h2>
-              </header>
-              <p class="excerpt">Click below to see our other Open Source Projects.</p>
-              <div class="centered">
-                <a href="http://github.com/{{ site.github }}/" class="button regressive" target="_blank">View on Github</a>
-              </div>
-            </article>
-          </div>
+      <div class="row">
+        <div class="full column">
+          <article>
+            <header>
+              <h2>Other Projects</h2>
+            </header>
+            <p class="excerpt">Click below to see our other Open Source Projects.</p>
+            <div class="centered">
+              <a href="http://github.com/{{ site.github }}/" class="button regressive" target="_blank">View on Github</a>
+            </div>
+          </article>
         </div>
-      </section>
-    </section>
-  </br>
-  <div class="row">
-    <section id="contributing">
-      <div class="five columns value-prop">
-        <h2>Contributing</h2>
-
-        As a bit of housekeeping, our legal department requires that you fill out our
-        <a href="https://docs.google.com/forms/d/19LpBBjykHPox18vrZvBbZUcK6gQTj7qv1O5hCduAZFU/edit" target="_blank">CLA</a> prior to us accepting any pull requests.
-
-        <br/>
-      </div>
-    </section>
-    <div class="two columns">&nbsp;</div>
-    <section id="codeofconduct">
-      <div class="five columns value-prop">
-        <h2>Code of Conduct</h2>
-        <p>
-          Our <a href="{{ site.baseurl }}/codeofconduct" target="_blank">Code of Conduct</a> is what we govern our open source projects with and how we interact with the community.
-        </p>
       </div>
     </section>
   </section>
+</br>
+<div class="row">
+  <section id="contributing">
+    <div class="five columns value-prop">
+      <h2>Contributing</h2>
+
+      As a bit of housekeeping, our legal department requires that you fill out our
+      <a href="https://docs.google.com/forms/d/19LpBBjykHPox18vrZvBbZUcK6gQTj7qv1O5hCduAZFU/edit" target="_blank">CLA</a> prior to us accepting any pull requests.
+
+      <br/>
+    </div>
+  </section>
+  <div class="two columns">&nbsp;</div>
+  <section id="codeofconduct">
+    <div class="five columns value-prop">
+      <h2>Code of Conduct</h2>
+      <p>
+        Our <a href="{{ site.baseurl }}/codeofconduct" target="_blank">Code of Conduct</a> is what we govern our open source projects with and how we interact with the community.
+      </p>
+    </div>
+  </section>
+</section>
