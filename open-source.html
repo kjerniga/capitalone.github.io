@@ -1,50 +1,121 @@
 ---
 layout: page
 permalink: /open-source/
-title: Code
+title:
 ---
+<style>
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  font-weight: 700 !important;
+};
+p{min-height:200px;max-height:100px;};
+
+projecttitle {
+margin-bottom:2px !important;
+};
+
+</style>
 
 <section id="oss">
   <section id="intro">
-    While we've been active in maintaining open source projects we haven't traditionally released our own open source projects. That changes today! We're approaching our work with an eye to open source. We'll outline all our projects here as the library continues to grow. We look forward to working with many of you!
-  </section>
+  Capital One&#174; is an open source-first organization.  We are actively using, contributing to and managing open source software projects. Come here to learn about our projects and those in our engineering pipeline. We look forward to collaborating with you!
+</section>
   <section id="projects">
     <h2>Projects</h2>
-    <div class="container">
-      {% assign projects = site.projects | sort: 'title' %}
-      {% for project in projects | sort: 'title' %}
-        {% assign loopindex = forloop.index | modulo: 2 %}
+    {% assign projects = site.projects | sort: 'order' %}
+    {% for project in projects | sort: 'title' %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    <!-- Start a new row if this project order is multiple of 2 -->
+    {% if loopindex == 1  %}
+    <div class="row" >
+      {% assign numberofbuttons = 1 %}
+      {% assign sourceurl1= project.source_url %}
+      {% assign viewbuttontext1 = project.viewbuttontext %}
+      {% if forloop.last %}
+      {% assign endrow = true %}
+      {% else %}
+      {% assign endrow = false %}
+      {% endif %}
+      <div class="five columns" >
+        {% elsif  loopindex == 0  %}
+        <div class="two columns">&nbsp;</div>
+        <div class="five columns" >
+          {% assign endrow = true %}
+          {% assign numberofbuttons = 2 %}
+          {% assign sourceurl2 = project.source_url %}
+          {% assign viewbuttontext2 = project.viewbuttontext %}
+          {% endif %}
+          <article>
+            <header>
+              <h3 >{{ project.title }}
+                <img  style="height:30px;padding-top:4px;" src="{{ project.icon }}"  class="logo"></h3>
 
-          <div class="row">
+              </header>
+              <div class="excerpt" style="height:215px;overflow:hidden;text-overflow:ellipsis;">{{ project.content }}</div>
 
-          <div class="full column">
-            <article>
-              <header>
-                <h3>{{ project.title }}</h3>
-              </header> 
-              <p class="excerpt">{{ project.content }}</p>
-              <div class="centered">
-                <a href="{{ project.source_url }}" class="button regressive">View on {{ project.source }}</a>
+                <!-- <p class="lead"style="color:#022e46;">&nbsp;</p> -->
+                <div class="row"><div class="five columns centered">
+                  <a href="{{ project.source_url}}" target="_blank"
+                  class="button regressive"> {{ project.viewbuttontext }}</a>
+                </div>
+
+
               </div>
             </article>
           </div>
-        {% if loopindex == 0 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+
+          <!-- build the row for buttons -->
+          {% if endrow == true and numberofbuttons == 1 %}
+        </div>
+        <!--
+        <div class="row"><div class="five columns centered"> <a href="{{ sourceurl1}}" target="_blank"
+        class="button regressive"> {{ viewbuttontext1 }}</a></div>
+      </div> -->
+      <br>
+      <br>
+
+      {% elsif endrow == true and numberofbuttons == 2  %}
     </div>
-  </section>
-  <section id="contributing">
-    <h2>Contributing</h2>
-    <p>
-      As a bit of housekeeping, our legal department requires that you fill out our <a href="https://docs.google.com/forms/d/19LpBBjykHPox18vrZvBbZUcK6gQTj7qv1O5hCduAZFU/edit" target="_blank">CLA</a> prior to us accepting any pull requests.
-    </p>
-  </section>
-  <br/>
+  <br>
+  <br>
+
+  {% endif %}
+  {% endfor %}
+    <section id="other_projects">
+        <div class="row">
+          <div class="full column">
+            <article>
+              <header>
+                <h2>Other Projects</h2>
+              </header>
+              <p class="excerpt">Click below to see our other Open Source Projects.</p>
+              <div class="centered">
+                <a href="http://github.com/{{ site.github }}/" class="button regressive" target="_blank">View on Github</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </br>
+  <div class="row">
+    <section id="contributing">
+      <div class="five columns value-prop">
+        <h2>Contributing</h2>
+
+        As a bit of housekeeping, our legal department requires that you fill out our
+        <a href="https://docs.google.com/forms/d/19LpBBjykHPox18vrZvBbZUcK6gQTj7qv1O5hCduAZFU/edit" target="_blank">CLA</a> prior to us accepting any pull requests.
+
+        <br/>
+      </div>
+    </section>
+    <div class="two columns">&nbsp;</div>
     <section id="codeofconduct">
-    <h2>Code of Conduct</h2>
-    <p>
-      Our <a href="{{ site.baseurl }}/codeofconduct" target="_blank">Code of Conduct</a> is what we govern our open source projects with and how we interact with the community.
-    </p>
+      <div class="five columns value-prop">
+        <h2>Code of Conduct</h2>
+        <p>
+          Our <a href="{{ site.baseurl }}/codeofconduct" target="_blank">Code of Conduct</a> is what we govern our open source projects with and how we interact with the community.
+        </p>
+      </div>
+    </section>
   </section>
-</section>
