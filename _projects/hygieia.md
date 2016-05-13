@@ -2,7 +2,6 @@
 title: Hygieia&#8480;
 
 name: Hygieia&#8480;
-projecttrademark: true
 source: GitHub
 source_url: https://github.com/capitalone/Hygieia
 icon: /assets/img/projects/hygieia_b.png

@@ -49,17 +49,12 @@ margin-bottom:2px !important;
             <header>
               <h3 >{{ project.title }}
                 <img  style="height:30px;padding-top:4px;" src="{{ project.icon }}"  class="logo"></h3>
-
               </header>
               <div class="excerpt" style="height:215px;overflow:hidden;text-overflow:ellipsis;">{{ project.content }}</div>
-
-                <!-- <p class="lead"style="color:#022e46;">&nbsp;</p> -->
                 <div class="row"><div class="five columns centered">
                   <a href="{{ project.source_url}}" target="_blank"
                   class="button regressive"> {{ project.viewbuttontext }}</a>
                 </div>
-
-
               </div>
             </article>
           </div>
@@ -67,10 +62,7 @@ margin-bottom:2px !important;
           <!-- build the row for buttons -->
           {% if endrow == true and numberofbuttons == 1 %}
         </div>
-        <!--
-        <div class="row"><div class="five columns centered"> <a href="{{ sourceurl1}}" target="_blank"
-        class="button regressive"> {{ viewbuttontext1 }}</a></div>
-      </div> -->
+
       <br>
       <br>
 
