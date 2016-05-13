@@ -4,5 +4,10 @@ title: Hygieia&#8480;
 name: Hygieia&#8480;
 source: GitHub
 source_url: https://github.com/capitalone/Hygieia
+icon: /assets/img/projects/hygieia_b.png
+order: 1
+viewbuttontext: View on github
+comingsoon: true
 ---
-Introducing Hygieia&#8480;, Capital One's premiere Enterprise DevOps Dashboard. With this intuitive tool, you can create a simple drag and drop environment to keep up to date with the real time status of your in-house development projects. And they say nothing good in life is free...
+Searching for a configurable DevOps dashboard? Hygieia provides a near-realtime, consolidated view of the entire delivery pipeline. Hygieia was awarded the Black Duck Rookie of the Year.
+<a href="https://www.youtube.com/watch?v=WuPQOBMmzSE" target="_blank">&nbsp;Learn more...</a>
