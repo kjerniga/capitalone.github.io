@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hygieia Dashboard - Making sense out of your DevOps tools"
+title: "Hygieia<sup>SM</sup> Dashboard - Making sense out of your DevOps tools"
 date: 2015-07-20 10:25:00
 author: Tapabrata Pal
 tags: [devops, open source]
@@ -19,27 +19,27 @@ So after evaluating many such dashboard products, we decided it was time to crea
 
 When designing and building the dashboard, we focused on making it simple to configure and easy to use. Plus, since we knew it would be useful to others, we built it with the intention of sharing it with the world and offering an open source version.
 
-Our DevOps dashboard, now known as Hygieia, is used extensively across Capital One, and we’re pleased to now offer it to you.
+Our DevOps dashboard, now known as Hygieia<sup>SM</sup>, is used extensively across Capital One, and we’re pleased to now offer it to you.
 
 One of the [Three Ways of DevOps](http://itrevolution.com/the-three-ways-principles-underpinning-devops/) as described by Gene Kim is “Amplify Feedback Loop”. Hygieia is meant to amplify and shorten the feedback loop.
- 
+
 Here is a sample view of a dashboard configured for a real-life application:
 
 ![Dashboard]({{ site.baseurl }}/assets/posts/hygieia-making-sense-of-devops-tools-1.png)
 ![Dashboard]({{ site.baseurl }}/assets/posts/hygieia-making-sense-of-devops-tools-2.png)
 
-The dashboard provides two views: Widget view and Pipeline view. 
+The dashboard provides two views: Widget view and Pipeline view.
 
-The widget view shows information about features in the current sprint, code contribution activities, continuous integration activities, code analysis, security analysis, unit and functional test results, deployment and environment status. 
+The widget view shows information about features in the current sprint, code contribution activities, continuous integration activities, code analysis, security analysis, unit and functional test results, deployment and environment status.
 
-The pipeline view shows the components’ lifecycle progression through DEV, INT, QA, PERF and PROD. 
+The pipeline view shows the components’ lifecycle progression through DEV, INT, QA, PERF and PROD.
 
 The main purpose of this dashboard is to make any clog in the pipeline easily visible so that a member of the team can take immediate action to remove it.
 
-Out of the box, the dashboard application integrates with VersionOne, Jira, Subversion, Github, Hudson/Jenkins, Sonar, HP Fortify, Cucumber/Selenium and IBM Urbancode Deploy. 
+Out of the box, the dashboard application integrates with VersionOne, Jira, Subversion, Github, Hudson/Jenkins, Sonar, HP Fortify, Cucumber/Selenium and IBM Urbancode Deploy.
 
-We are actively building new features and enhancements, and are asking for feedback from many external organizations. So far, we have received awesome input from tools vendors and many big enterprises. 
+We are actively building new features and enhancements, and are asking for feedback from many external organizations. So far, we have received awesome input from tools vendors and many big enterprises.
 
-Going forward we are hoping for contributions from Open Source communities as well as commercial tools vendor. 
+Going forward we are hoping for contributions from Open Source communities as well as commercial tools vendor.
 
 The product will be launched during OSCON July 20-24, 2015 in Portland and is available on [Github](https://github.com/capitalone/Hygieia).

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Hygieia is a 2015 Black Duck Rookie of the Year!"
+title: "Hygieia<sup>SM</sup> is a 2015 Black Duck Rookie of the Year!"
 date: 2016-03-15 15:00:00
 author: Tapabrata Pal
 tags: [DevOps, DevOpsSec, Open Source]
 category: blog
 ---
 
-We’re extremely excited to announce that [Hygieia](http://github.com/capitalone/Hygieia) has been selected as an Open Source Rookie of the Year 2015 by [Black Duck Software](https://www.blackducksoftware.com/open-source-rookies). The goal of this annual award is to recognize the most exciting and impactful open source projects from the last year. Hygieia was selected for 2015 alongside other awesome OSS projects like [Rocket.Chat](https://rocket.chat/), [Bazel](http://bazel.io/), [React Native](http://facebook.github.io/react-native/), [InSpec](https://www.chef.io/inspec/), [Glucosio](http://www.glucosio.org/), [Vault](https://www.vaultproject.io/), [RancherOS](http://rancher.com/rancher-os/).
+We’re extremely excited to announce that [Hygieia](http://github.com/capitalone/Hygieia)<sup>SM</sup> has been selected as an Open Source Rookie of the Year 2015 by [Black Duck Software](https://www.blackducksoftware.com/open-source-rookies). The goal of this annual award is to recognize the most exciting and impactful open source projects from the last year. Hygieia was selected for 2015 alongside other awesome OSS projects like [Rocket.Chat](https://rocket.chat/), [Bazel](http://bazel.io/), [React Native](http://facebook.github.io/react-native/), [InSpec](https://www.chef.io/inspec/), [Glucosio](http://www.glucosio.org/), [Vault](https://www.vaultproject.io/), [RancherOS](http://rancher.com/rancher-os/).
 
 <!--more-->
 

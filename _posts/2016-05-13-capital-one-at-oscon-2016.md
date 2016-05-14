@@ -25,5 +25,4 @@ If Capital One’s open source demos and discussions make you think — “I
 
 Learn more about Capital One’s commitment to open source at [O’Reilly’s Open Source Convention](http://conferences.oreilly.com/oscon/open-source-us).
 
-Be sure to follow [@CapitalOneDevEx](https://twitter.com/CapitalOneDevEx) and [#OSCON](https://twitter.com/search?q=%23OSCON&src=typd) on Twitter & check out all they have to offer at OSCON and beyond.
-Start changing your expectations for what a bank can be, and stay tuned for more exciting announcements to come!
+Be sure to check out our [open source projects](http://www.capitalone.io/open-source/), follow [@CapitalOneDevEx](https://twitter.com/CapitalOneDevEx) and [#OSCON](https://twitter.com/search?q=%23OSCON&src=typd) on Twitter & check out all they have to offer at OSCON and beyond. Start changing your expectations for what a bank can be, and stay tuned for more exciting announcements to come!
