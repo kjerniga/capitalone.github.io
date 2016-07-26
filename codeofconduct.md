@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirected
+redirect_to: https://developer.capitalone.com/single/code-of-conduct/?io=true
 title: Code of Conduct
 permalink: /codeofconduct/
 ---
