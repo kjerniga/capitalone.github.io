@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Capital One Tops InformationWeek ranking of the most innovative companies using business technology"
 date: 2016-05-02 19:00:00
 author: Rob Alexander
@@ -8,6 +8,7 @@ excerpt: "I’m thrilled that Capital One was named the #1 most innovative compa
 category: blog
 images:
   westcreek2: /assets/posts/informationweek-elite-100/HIPDC_Capital One West Creek_02_A.jpeg
+redirect_to: https://developer.capitalone.com/blog-post/capital-one-tops-informationweek-ranking-of-the-most-innovative-companies-using-business-technology/?io=true
 ---
 
 [![West Creek 2]({{ site.baseurl | append: page.images.westcreek2 }})]({{ site.baseurl | append: page.images.westcreek2 }})

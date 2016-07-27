@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Why Everyone is Talking About Isomorphic / Universal JavaScript and Why it Matters"
 date: 2016-01-26 13:30:00
 author: Azat Mardan
@@ -7,6 +7,7 @@ tags: [javascript, isomorphic javascript, universal javascript, node.js, react.j
 category: blog
 images:
   isomorphism-diagram: /assets/posts/why-is-everyone-talking-about-isomorphic-javascript/Isomorphism-diagram.png
+redirect_to: https://developer.capitalone.com/blog-post/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters/?io=true
 ---
 
 <div class="excerpt_hidden centered">

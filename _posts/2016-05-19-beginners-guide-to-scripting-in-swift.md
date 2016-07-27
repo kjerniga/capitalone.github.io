@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "A Beginner's Guide to Scripting in Swift"
 date: 2016-05-19 14:45:00
 author: Hector Matos
@@ -12,6 +12,7 @@ images:
   xcode-clt: /assets/posts/beginner-guide-to-swift-scripting/xcode-clt.png
   xcode-error: /assets/posts/beginner-guide-to-swift-scripting/xcode-error.png
   hammer-egg: /assets/posts/beginner-guide-to-swift-scripting/hammer-egg.png
+redirect_to: https://developer.capitalone.com/blog-post/a-beginners-guide-to-scripting-in-swift/?io=true
 ---
 [![Rays of Sunshine]({{ site.baseurl | append: page.images.banner }})]({{ site.baseurl | append: page.images.banner }})
 

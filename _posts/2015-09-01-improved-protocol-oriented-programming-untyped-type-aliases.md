@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: redirected
 title: "Improved Protocol-Oriented Programming with Untyped Type Aliases"
 date: 2015-09-01 16:35:00
 author: Michi Kono
 tags: [swift, ios, mobile, protocal oriented programming]
 category: blog
+redirect_to: https://developer.capitalone.com/blog-post/improved-protocol-oriented-programming-with-untyped-type-aliases/?io=true
 ---
 [Protocol-Oriented Programming](https://developer.apple.com/videos/wwdc/2015/?id=408) is crucial to writing great Swift code. But the reusability of a protocol is greatly restricted because Swift explicitly disallows adding generics to one. This can be overcome by using an untyped typealias as a generic — something most Swift developers have never seen.
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Improved Protocol-Oriented Programming with Untyped Type Aliases, Part 2"
 date: 2015-09-03 16:00:00
 author: Michi Kono
@@ -7,7 +7,8 @@ tags: [swift, ios, mobile, protocal oriented programming]
 category: blog
 images:
   xcode-autosuggestion: /assets/posts/improved-protocol-oriented-programming-untyped-type-aliases/swift-typealias-generics-code1.png
-  construction-error: /assets/posts/improved-protocol-oriented-programming-untyped-type-aliases/swift-typealias-generics-code2.png 
+  construction-error: /assets/posts/improved-protocol-oriented-programming-untyped-type-aliases/swift-typealias-generics-code2.png
+redirect_to: https://developer.capitalone.com/blog-post/improved-protocol-oriented-programming-with-untyped-type-aliases-part-2/?io=true
 ---
 
 *This is part two of a series that explores the topic of using a typealias as a generic inside protocols. Part one can be found [here](http://www.capitalone.io/blog/improved-protocol-oriented-programming-untyped-type-aliases/).*

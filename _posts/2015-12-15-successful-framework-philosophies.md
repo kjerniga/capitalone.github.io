@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Philosophies that Shaped Successful Frameworks"
 date: 2015-12-15 16:05:00
 author: Qiang Xue
@@ -9,6 +9,7 @@ images:
   framework-app-lib: /assets/posts/successful-framework-philosophies/framework-app-lib.png
   sinatra-pipeline: /assets/posts/successful-framework-philosophies/sinatra-pipeline.png
   sails-mvc: /assets/posts/successful-framework-philosophies/sails-mvc.png
+redirect_to: https://developer.capitalone.com/blog-post/philosophies-that-shaped-successful-frameworks/?io=true
 ---
 
 During the past decade we’ve seen many software frameworks pop up. Frameworks such as [Spring](http://spring.io/) and [Ruby on Rails](http://rubyonrails.org) have become so successful that mastering them means opening the door to numerous job opportunities. However, for every framework that succeeds, there are even more that fade away without being noticed by most developers. [Wikipedia](https://en.wikipedia.org/wiki/Software_framework) listed 67 web frameworks on January 1, 2008. As of today however, more than two thirds of them have either fallen off the list or haven’t been updated for over three years. As the creator of the [Yii framework](http://www.yiiframework.com), I’ve spent a lot of time investigating various frameworks and understanding why some have succeeded and others failed. In this post, I will describe some of my findings on the philosophies that have shaped those successful frameworks.

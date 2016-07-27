@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Let’s Start Something Together"
 date: 2016-03-10 17:00:00
 author: Naveed Anwar
@@ -8,6 +8,7 @@ category: blog
 redirect_from: /blog/hello-great-people/
 images:
   dev-exchange-logo: /assets/posts/hello-great-people/DevExchange.png
+redirect_to: https://developer.capitalone.com/blog-post/lets-start-something-together/?io=true
 ---
 
 Starting something new is exhilarating, daring and, at times, even daunting. People who create know this. Having an idea isn’t the hardest part. Getting that idea off the ground is – building adoption, clarifying value, then scaling that idea to realize its full impact in the world.

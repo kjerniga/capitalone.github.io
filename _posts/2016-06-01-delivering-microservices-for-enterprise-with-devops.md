@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Delivering Microservices for Enterprise with DevOps"
 date: 2016-06-01 13:15:00
 author: Gnanendra Dathathreya
@@ -10,6 +10,7 @@ images:
   containers: /assets/posts/delivering-microservices-for-enterprise/containers.png
   pipeline: /assets/posts/delivering-microservices-for-enterprise/pipeline.png
   automation: /assets/posts/delivering-microservices-for-enterprise/automation.png
+redirect_to: https://developer.capitalone.com/blog-post/delivering-microservices-for-enterprise-with-devops/?io=true
 ---
 
 [![Shipping Containers]({{ site.baseurl | append: page.images.containers }})]({{ site.baseurl | append: page.images.containers }})

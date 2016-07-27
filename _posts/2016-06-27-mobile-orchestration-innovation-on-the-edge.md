@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Mobile Orchestration – Innovation on the Edge"
 date: 2016-06-27 14:05:00
 author: Andrew Rosenbaum
@@ -8,6 +8,7 @@ category: blog
 excerpt: The growth of mobile apps as a primary conduit to interact with users has greatly changed how developers build and deliver software. With an active mobile user base of millions of customers, providing a top-notch mobile user experience is an absolute expectation here at Capital One. Yes, we’re one of the top financial institutions in the country, but our online presence means we function like a top digital and technology company as well.
 images:
   banner: /assets/posts/mobile-orchestration-innovation-on-the-edge/mobile-banner.png
+redirect_to: https://developer.capitalone.com/blog-post/mobile-orchestration-innovation-on-the-edge/?io=true
 ---
 
 [![Mobile Orchestration Banner]({{ site.baseurl | append: page.images.banner }})]({{ site.baseurl | append: page.images.banner }})

@@ -8,7 +8,6 @@ category: blog
 images:
   what-problem: /assets/posts/inside-out-taking-api-public/WhatProblem.jpeg
   come-in: /assets/posts/inside-out-taking-api-public/ComeIn.jpeg
-
 ---
 
 API professionals talk a lot about concepts like “Design First” and “API First”, all of which are great platitudes if you’re starting your API from scratch. However, most of us don’t work for brand new companies with zero APIs in our stack. It’s much more common to start your API program journey with a bunch of APIs built for internal use in developer-led projects that weren’t initially designed for close public scrutiny.

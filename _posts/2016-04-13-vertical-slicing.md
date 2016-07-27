@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: redirected
 title: "Vertical Slicing - Some Practical Ideas"
 date: 2016-04-13 16:30:00
 author: Kumar Manickavasagam
@@ -8,6 +8,7 @@ category: blog
 excerpt: In agile development, sizing & slicing a story is important in delivering business value while achieving development goals such as continuous integration, deployment, and testing. If a story is too large then the team runs the risk of not completing the story within the current sprint. If a story is too small, tangible results cannot be demonstrated.
 images:
   whiteboard: /assets/posts/vertical-slicing/whiteboard.jpeg
+redirect_to: https://developer.capitalone.com/blog-post/vertical-slicing-some-practical-ideas/?io=true
 ---
 
 [![Whiteboard]({{ site.baseurl | append: page.images.whiteboard }})]({{ site.baseurl | append: page.images.whiteboard }})
